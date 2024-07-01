@@ -9,7 +9,7 @@
           :style="slideStyles(index)"
         >
         <div class="w-[15rem] sm:w-[22rem] lg:w-[23rem] xl:w-[27rem]  2xl:w-[34rem]">
-            <img :src="'/src/assets/img/' + slide.image" :alt="`Slide ${index + 1}`">
+            <img src="/src/assets/img/no-bg-img.png" :alt="`Slide ${index + 1}`">
         </div>
         </div>
       </div>
