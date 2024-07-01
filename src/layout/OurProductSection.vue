@@ -15,15 +15,15 @@ import { ref } from 'vue';
 
 
 const carouselSlides = ref([
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' },
-  { image: '/src/assets/img/no-bg-img.png' }
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' },
+  { image: 'src/assets/img/no-bg-img.png' }
 ]);
 
 </script>
