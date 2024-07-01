@@ -1,7 +1,7 @@
 <template>
    <div class="card w-full h-full overflow-hidden rounded-sm flex flex-col items-center justify-center gap-y-4  lg:h-[30svh]">
       <div class="img-wrapper">
-         <img class="sm:w-[13rem]" src="src/assets/img/no-bg-img.png" alt="image">
+         <img class="sm:w-[13rem]" src="/src/assets/img/no-bg-img.png" alt="image">
       </div>
         <h3 class="font-extralight title text-xs sm:text-sm lg:text-lg">Graphic Tees</h3>
    </div>
