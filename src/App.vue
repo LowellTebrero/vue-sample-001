@@ -14,6 +14,7 @@ import { RouterView } from 'vue-router'
     background-color: #252525;
 }
 
+
 </style>
 
 
