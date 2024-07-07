@@ -3,14 +3,14 @@
         <TitleSection header="CATEGORY" headertitle="Explore our product" />
 
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 w-[90%] lg:w-[80%] gap-2 sm:gap-4 lg:gap-10">
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <Card title="Graphic Tees"/>
+            <Card title="Statement Tees" />
+            <Card title="Band and Music Tees"/>
+            <Card title="Vintage and Retro Tees"/>
+            <Card title="Sports and Fitness Tees"/>
+            <Card title="Pop Culture Tees"/>
+            <Card title="Artistic Tees"/>
+            <Card title="Humor Tees"/>
         </div>
 
         <div class="">

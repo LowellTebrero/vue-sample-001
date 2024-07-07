@@ -10,11 +10,11 @@
   </main>
 
   <!-- Headline Section -->
-   <HeadlineSection/>
+  <HeadlineSection/>
 
   <!-- Our Product Section -->
   <OurProductSection/>
- 
+
 
   <!-- About Clothing Section -->
   <AboutClothingSection/>
@@ -26,8 +26,14 @@
   <!-- About Us Section -->
   <AboutUsSection/>
 
+
+  <!-- Contact Us Section -->
+  <ContactUsSection/>
+
   <!-- Footer Section -->
   <FooterSection/>
+
+
 
 </template>
 
@@ -42,6 +48,7 @@ import AboutUsSection from '@/layout/AboutUsSection.vue';
 import FooterSection from '@/layout/FooterSection.vue';
 
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+import ContactUsSection from '@/layout/ContactUsSection.vue';
 
 const isSticky = ref(false);
 

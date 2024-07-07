@@ -3,9 +3,16 @@
       <div class="img-wrapper">
          <img class="sm:w-[13rem]" src="/src/assets/img/no-bg-img.png" alt="image">
       </div>
-        <h3 class="font-extralight title text-xs sm:text-sm lg:text-lg">Graphic Tees</h3>
+        <h3 class="font-extralight title text-xs sm:text-sm lg:text-lg">{{ props.title }}</h3>
    </div>
 </template>
+
+<script setup>
+
+const props = defineProps([
+      "title"
+    ])
+</script>
 
 
 <style scoped>

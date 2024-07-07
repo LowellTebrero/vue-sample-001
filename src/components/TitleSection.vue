@@ -11,7 +11,3 @@
         "headertitle"
     ])
 </script>
-
-<style scoped>
-
-</style>
