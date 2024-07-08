@@ -2,7 +2,7 @@
     <section class="xl:h-[100svh] flex flex-col items-center mt-[3svh] lg:mt-[15svh] gap-y-4 sm:gap-y-[8svh] w-[85%] sm:w-[80%] mx-auto" id="category">
         <TitleSection header="CATEGORY" headertitle="Explore our product" />
 
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 w-[90%] lg:w-[80%] gap-2 sm:gap-4 lg:gap-10">
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 w-[90%] lg:w-[80%] gap-2 sm:gap-4 lg:gap-10 animate-top">
             <Card title="Graphic Tees"/>
             <Card title="Statement Tees" />
             <Card title="Band and Music Tees"/>

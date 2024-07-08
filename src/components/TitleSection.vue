@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center  flex-col">
+    <div class="flex items-center  flex-col box">
         <h4 class="font-extralight">{{ props.header }}</h4>
         <h2 class="tracking-wide text-lg sm:text-2xl">{{ props.headertitle }}</h2>
     </div>

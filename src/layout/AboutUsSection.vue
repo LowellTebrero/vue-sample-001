@@ -3,7 +3,7 @@
         <TitleSection header="ABOUT US" headertitle="Learn about us" />
 
         <div class="flex flex-col sm:flex-row w-full h-full mt-[10vh]">
-            <div class="flex-1 flex relative">
+            <div class="flex-1 flex relative animate-left">
                 <div class="lg:w-[40%] bg-zinc-500 h-[30vh] sm:absolute left-4 top-5 rounded-lg overflow-hidden hover:z-40 ease-out duration-300 hover:scale-[115%]">
                     <img src="/src/assets/img/BASIC.jpg" class="object-cover object-center w-full h-full " alt="">
                 </div>
@@ -12,7 +12,7 @@
                     <img src="/src/assets/img/profile.jpg" class="object-cover object-center w-full h-full" alt="">
                 </div>
             </div>
-            <div class="flex-1 flex  flex-col gap-y-2 sm:pl-5 mt-[5vh] sm:mt-0">
+            <div class="flex-1 flex  flex-col gap-y-2 sm:pl-5 mt-[5vh] sm:mt-0 animate-right">
                 <h2 class="tracking-wide text-base lg:text-lg">WHAT YOU SEE IS WHAT YOU GET</h2>
                 <p class="font-extralight text-xs sm:text-sm lg:text-base text-justify sm:text-left">
                     design involves the art and process of creating garments that are not only functional but also

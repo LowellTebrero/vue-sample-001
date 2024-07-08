@@ -2,7 +2,7 @@
      <section class="lg:h-[80svh] flex flex-col items-center overflow-hidden mt-[10svh] lg:mt-[15svh] w-[85%] sm:w-[80%] mx-auto text-slate-200" id="contact">
         <TitleSection header="CONTACT" headertitle="Connect with us"/>
 
-        <div class="mt-[15svh] space-y-4 w-full lg:w-1/3 2xl:w-1/2">
+        <div class="mt-[15svh] space-y-4 w-full lg:w-1/3 2xl:w-1/2 animate-top">
             <div>
                 <label for="name">Name</label>
                 <input type="text" class="block bg-transparent border px-4 py-2 w-full rounded text-xs sm:text-sm lg:text-base" placeholder="Type your name here" id="name">

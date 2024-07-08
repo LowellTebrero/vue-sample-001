@@ -2,18 +2,18 @@
     <section class="sm:h-[95svh] flex flex-col items-center sm:overflow-hidden mt-[3svh] lg:mt-[15svh] gap-y-5  sm:gap-y-[5svh] md:gap-y-[10svh] w-[85%] sm:w-[80%] mx-auto" id="qualityfirst">
         <TitleSection header="QUALITY FIRST" headertitle="Quality of our clothing" />
 
-        <p class="text-justify sm:text-center font-extralight text-xs sm:text-sm lg:text-base">
+        <p class="text-justify sm:text-center font-extralight text-xs sm:text-sm lg:text-base box">
             Life is a journey filled with ups and downs, but each moment is a chance to grow and learn. Embrace
             challenges as opportunities to become stronger and wiser. Believe in your dreams, and take small steps each
             day towards achieving them. Surround yourself with positive people who uplift and inspire you.
         </p>
 
         <div class="flex flex-col sm:flex-row w-full sm:h-[50vh] text-zinc-300">
-            <div class="flex-1 flex items-center justify-center py-5 sm:py-0">
+            <div class="flex-1 flex items-center justify-center py-5 sm:py-0 animate-left">
                 <img src="/src/assets/img/image.png" alt="image" width="200" class="floating sm:w-[25rem]">
             </div>
 
-            <div class="flex-1 flex flex-col items-end pl-[1rem] lg:pl-[5rem] gap-y-10  justify-center">
+            <div class="flex-1 flex flex-col items-end pl-[1rem] lg:pl-[5rem] gap-y-10  justify-center animate-right">
 
                 <div class="flex justify-between items-center space-x-4">
                     <div>

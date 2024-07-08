@@ -10,10 +10,10 @@
   </main>
 
   <!-- Headline Section -->
-  <HeadlineSection/>
+  <HeadlineSection />
 
   <!-- Our Product Section -->
-  <OurProductSection/>
+  <OurProductSection />
 
 
   <!-- About Clothing Section -->
@@ -64,6 +64,64 @@ onBeforeUnmount(() => {
   window.removeEventListener('scroll', handleScroll);
 });
 
+
+const checkBoxes = () => {
+  const boxes = document.querySelectorAll('.box');
+  const animateTop = document.querySelectorAll('.animate-top');
+  const animateLeft = document.querySelectorAll('.animate-left');
+  const animateRight = document.querySelectorAll('.animate-right');
+  const triggerBottom = window.innerHeight / 5 * 4;
+
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+
+    if (boxTop < triggerBottom) {
+      box.classList.add('show');
+    } else {
+      box.classList.remove('show');
+    }
+  });
+
+  animateTop.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+
+    if (boxTop < triggerBottom) {
+      box.classList.add('show');
+    } else {
+      box.classList.remove('show');
+    }
+  });
+
+  animateLeft.forEach(box => {
+    const boxLeft = box.getBoundingClientRect().top;
+
+    if (boxLeft < triggerBottom) {
+      box.classList.add('show');
+    } else {
+      box.classList.remove('show');
+    }
+  });
+
+  animateRight.forEach(box => {
+    const boxRight = box.getBoundingClientRect().top;
+
+    if (boxRight < triggerBottom) {
+      box.classList.add('show');
+    } else {
+      box.classList.remove('show');
+    }
+  });
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', checkBoxes);
+  checkBoxes();
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', checkBoxes);
+});
+
 </script>
 
 
@@ -73,5 +131,74 @@ onBeforeUnmount(() => {
   /* Add your sticky styles here */
   background-color: #131313; /* Example style */
   transition: all .2s ease-in;
+}
+
+.box {
+  transform: translateY(150%);
+  transition: transform .7s ease-in;
+  opacity: 0;
+  
+}
+.animate-top {
+  transform: translateY(30%);
+  transition: transform .7s ease-in;
+  opacity: 0;
+  
+}
+.animate-left {
+  transform: translateX(-100%);
+  transition: transform .7s ease-in;
+  opacity: 0;
+  
+}
+.animate-right {
+  transform: translateX(100%);
+  transition: transform .7s ease-in;
+  opacity: 0;
+  
+}
+
+.box:nth-of-type(even){
+  transform: translateY(150%);
+  opacity: 0;
+}
+.animate-top:nth-of-type(even){
+  transform: translateY(30%);
+  opacity: 0;
+}
+.animate-left:nth-of-type(even){
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.animate-right:nth-of-type(even){
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.box.show {
+  transform: translateY(0);
+  animation: showOpacity 4s linear forwards;
+
+}
+.animate-top.show {
+  transform: translateY(0);
+  animation: showOpacity 3s linear forwards;
+
+}
+.animate-right.show {
+  transform: translateX(0);
+  animation: showOpacity 3s linear forwards;
+
+}
+.animate-left.show {
+  transform: translateX(0);
+  animation: showOpacity 3s linear forwards;
+
+}
+
+@keyframes showOpacity {
+  0% { opacity: 0%; }
+  50% { opacity: 80%; }
+  100% { opacity: 100%; }
 }
 </style>
