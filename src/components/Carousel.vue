@@ -9,7 +9,9 @@
           :style="slideStyles(index)"
         >
         <div class="w-[15rem] sm:w-[22rem] lg:w-[23rem] xl:w-[27rem]  2xl:w-[34rem]">
-            <img src="/src/assets/img/no-bg-img.png" :alt="`Slide ${index + 1}`">
+            <router-link to="/product">
+              <img src="/src/assets/img/no-bg-img.png" :alt="`Slide ${index + 1}`">
+            </router-link>
         </div>
         </div>
       </div>

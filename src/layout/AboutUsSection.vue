@@ -1,5 +1,6 @@
 <template>
-    <section class="lg:h-[70svh] flex flex-col items-center overflow-hidden mt-[10svh] lg:mt-[15svh] w-[85%] sm:w-[80%] mx-auto text-slate-200" id="about">
+    <section class="xl:h-[70svh] flex flex-col items-center overflow-hidden mt-[10svh] lg:mt-[15svh] w-[85%] sm:w-[80%] mx-auto text-slate-200" id="about">
+        <div ref="about" style="pointer-events: none;" class="h-[10vh] md:h-[15vh] xl:h-[20vh]"></div>
         <TitleSection header="ABOUT US" headertitle="Learn about us" />
 
         <div class="flex flex-col sm:flex-row w-full h-full mt-[10vh]">

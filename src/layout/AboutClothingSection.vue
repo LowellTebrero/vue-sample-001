@@ -1,5 +1,6 @@
 <template>
     <section class="sm:h-[95svh] flex flex-col items-center sm:overflow-hidden mt-[3svh] lg:mt-[15svh] gap-y-5  sm:gap-y-[5svh] md:gap-y-[10svh] w-[85%] sm:w-[80%] mx-auto overflow-hidden" id="qualityfirst">
+        <div ref="quality" style="height: 50px;  top: -50px; pointer-events: none;"></div>
         <TitleSection header="QUALITY FIRST" headertitle="Quality of our clothing" />
 
         <p class="text-justify sm:text-center font-extralight text-xs sm:text-sm lg:text-base box">

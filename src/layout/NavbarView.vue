@@ -4,15 +4,15 @@
         <div class="hidden lg:block">
             <ul class="flex font-extralight">
                 <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm" href="#home">Home</a></li>
-                <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm" href="#product">Product</a>
+                <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm" @click="scrollToHiddenElement" href="#product">Product</a>
                 </li>
                 <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm"
-                        href="#qualityfirst">Quality</a></li>
+                    @click="scrollToHiddenElement" href="#qualityfirst">Quality</a></li>
                 <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm"
-                        href="#category">Category</a></li>
-                <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm" href="#about">About Us</a>
+                    @click="scrollToHiddenElement" href="#category">Category</a></li>
+                <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm"  @click="scrollToHiddenElement" href="#about">About Us</a>
                 </li>
-                <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm" href="#contact">Contact</a>
+                <li><a class="hover:bg-zinc-700 py-3 px-5 rounded-lg transition-all text-sm"  @click="scrollToHiddenElement" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>

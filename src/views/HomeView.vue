@@ -1,7 +1,7 @@
 <template>
 
   <header class="z-50 fixed w-full" :class="{ color: isSticky }">
-    <NavbarView />
+    <NavbarView :scrollToHiddenElement="scrollToHiddenElement" />
   </header>
 
   <main class="w-[85%] sm:w-[80%] mx-auto text-slate-200 relative">
@@ -55,6 +55,21 @@ const isSticky = ref(false);
 const handleScroll = () => {
   isSticky.value = window.scrollY > 200;
 };
+
+const product = ref(null);
+const quality = ref(null);
+const category = ref(null);
+const about = ref(null);
+const contact = ref(null);
+
+const scrollToHiddenElement = () => {
+  product.value.scrollIntoView({ behavior: "smooth" });
+  quality.value.scrollIntoView({ behavior: "smooth" });
+  category.value.scrollIntoView({ behavior: "smooth" });
+  about.value.scrollIntoView({ behavior: "smooth" });
+  contact.value.scrollIntoView({ behavior: "smooth" });
+};
+
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
