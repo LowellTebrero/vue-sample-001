@@ -1,5 +1,5 @@
 <template>
-    <div class="modal-backdrop z-50 p-10">
+    <div class="modal-backdrop z-50 p-5 md:p-10">
     <div class="bg-color rounded-lg p-5 px-2">
       <header class="modal-header px-4 py-2 lg:px-5 lg:py-4 ">
         <slot name="header">
