@@ -1,4 +1,6 @@
 <template>
+ 
+
     <div class="carousel-container  sm:h-[60vh]">
       <button @click="prevSlide" class="prev-btn">&#10094;</button>
       <div class="carousel md:mt-20">
@@ -9,18 +11,20 @@
           :style="slideStyles(index)"
         >
         <div class="w-[15rem] sm:w-[22rem] lg:w-[23rem] xl:w-[27rem]  2xl:w-[34rem]">
-            <router-link to="/product">
-              <img src="/src/assets/img/no-bg-img.png" :alt="`Slide ${index + 1}`">
-            </router-link>
+            <img src="/src/assets/img/no-bg-img.png" :alt="`Slide ${index + 1}`" type="button"  @click="showModal()">
         </div>
         </div>
       </div>
       <button @click="nextSlide" class="next-btn">&#10095;</button>
     </div>
+
+    
+
   </template>
   
   <script setup>
   import { ref, onMounted, onUnmounted } from 'vue';
+
   
   const props = defineProps({
     slides: {
@@ -33,9 +37,14 @@
           (typeof slide.class === 'string' || typeof slide.class === 'undefined')
         );
       }
-    }
+    },
+    showModal: {
+    type: Function,
+    required: true,
+  },
   });
-  
+
+
   const currentIndex = ref(0);
   
   const slideStyles = index => {
