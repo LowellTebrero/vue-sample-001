@@ -18,7 +18,7 @@
             <p class="font-extralight text-xs lg:text-base text-center md:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the
                 industry's standard dummy text ever since the 1500s,</p>
-            <h4 class="font-extralight tracking-wide text-xs lg:text-base">AVAILAIBLE SIZE: XL, LG, SM, XS</h4>
+            <h4 class="font-extralight tracking-wide text-xs lg:text-base">AVAILAIBLE SIZE: XS, SM, M, L, XL</h4>
             <h4 class="font-extralight tracking-wide text-xs lg:text-base">PRICE: 300.00 PHP</h4>
             <h4 class="font-extralight tracking-wide text-xs lg:text-base">COLOR: BLACK</h4>
 
